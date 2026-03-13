@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Servis Bevanda | Mostar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        /* Blagi smooth scroll za navigaciju */
+        html { scroll-behavior: smooth; }
+        .hero-bg {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1613214149922-f1809c99b414?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans text-gray-800">
+
+    <nav class="bg-white shadow-md fixed w-full z-50 top-0">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20">
+                <div class="flex items-center">
+                    <i class="fas fa-wrench text-blue-600 text-3xl mr-3"></i>
+                    <span class="font-bold text-2xl tracking-tight">Auto Servis <span class="text-blue-600">Bevanda</span></span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#pocetna" class="text-gray-600 hover:text-blue-600 font-semibold transition">Početna</a>
+                    <a href="#usluge" class="text-gray-600 hover:text-blue-600 font-semibold transition">Usluge</a>
+                    <a href="#recenzije" class="text-gray-600 hover:text-blue-600 font-semibold transition">Recenzije</a>
+                    <a href="#kontakt" class="text-gray-600 hover:text-blue-600 font-semibold transition">Kontakt</a>
+                    <a href="tel:+38736480010" class="bg-blue-600 text-white px-5 py-2 rounded-lg font-bold hover:bg-blue-700 transition shadow-lg">Nazovite nas</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="pocetna" class="hero-bg h-screen flex items-center mt-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center md:text-left">
+            <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-6 leading-tight">
+                Vaš pouzdan auto majstor <br> <span class="text-blue-500">u srcu Mostara.</span>
+            </h1>
+            <p class="text-xl text-gray-300 mb-8 max-w-2xl">
+                Profesionalna automehanika, brza dijagnostika i redovni servisi. Auto Servis Bevanda nudi vrhunsku uslugu za sigurnost vašeg vozila.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 md:justify-start justify-center">
+                <a href="#kontakt" class="bg-blue-600 text-white px-8 py-3 rounded-lg font-bold text-lg hover:bg-blue-700 transition shadow-lg text-center">Zakaži Termin</a>
+                <a href="#usluge" class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg font-bold text-lg hover:bg-white hover:text-gray-900 transition text-center">Naše Usluge</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="usluge" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Što nudimo?</h2>
+                <div class="w-24 h-1 bg-blue-600 mx-auto"></div>
+                <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Kompletno održavanje vašeg automobila na jednom mjestu. Koristimo najmodernije alate i dugogodišnje iskustvo.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-8 rounded-xl shadow-sm hover:shadow-xl transition border border-gray-100">
+                    <i class="fas fa-cogs text-4xl text-blue-600 mb-6"></i>
+                    <h3 class="text-xl font-bold mb-3">Automehanika</h3>
+                    <p class="text-gray-600">Popravak motora, mjenjača, ovjesa i kočionog sustava. Brzo i efikasno rješavanje svih mehaničkih kvarova.</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl shadow-sm hover:shadow-xl transition border border-gray-100">
+                    <i class="fas fa-laptop-medical text-4xl text-blue-600 mb-6"></i>
+                    <h3 class="text-xl font-bold mb-3">Auto Dijagnostika</h3>
+                    <p class="text-gray-600">Kompjutersko očitavanje grešaka uz najnoviji softver. Precizno lociranje kvara prije nego što postane veći problem.</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl shadow-sm hover:shadow-xl transition border border-gray-100">
+                    <i class="fas fa-oil-can text-4xl text-blue-600 mb-6"></i>
+                    <h3 class="text-xl font-bold mb-3">Mali i Veliki Servis</h3>
+                    <p class="text-gray-600">Izmjena ulja, filtera, remenja i pumpi za vodu. Pripremite svoje vozilo za sigurnu sezonu uz naše pakete.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="recenzije" class="py-20 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="flex flex-col items-center mb-10 text-center">
+                <div class="flex items-center justify-center gap-3 mb-4">
+                    <i class="fab fa-google text-4xl text-blue-600"></i>
+                    <h2 class="text-3xl font-bold text-gray-900">Što kažu naši klijenti?</h2>
+                </div>
+                <div class="flex text-yellow-400 text-2xl mb-2">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="text-gray-600">Iskustva stvarnih korisnika preuzeta direktno s Google-a.</p>
+            </div>
+
+            <style>
+                .custom-scrollbar::-webkit-scrollbar {
+                    width: 6px;
+                }
+                .custom-scrollbar::-webkit-scrollbar-track {
+                    background: #f1f1f1;
+                    border-radius: 10px;
+                }
+                .custom-scrollbar::-webkit-scrollbar-thumb {
+                    background: #3b82f6; 
+                    border-radius: 10px;
+                }
+                .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+                    background: #2563eb;
+                }
+            </style>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 font-bold mr-3">M</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Zvonimir J.</h4>
+                            <div class="flex text-yellow-400 text-sm">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 text-sm">"The best and most honest service you can find."</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center text-green-600 font-bold mr-3">I</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Leonardo M.</h4>
+                            <div class="flex text-yellow-400 text-sm">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 text-sm">"Brzi, pouzdani i transparentni. Prije popravka su me nazvali i objasnili što točno treba raditi. Ovdje održavam auto već godinama."</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center text-purple-600 font-bold mr-3">A</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Ana K.</h4>
+                            <div class="flex text-yellow-400 text-sm">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 text-sm">"Odradili veliki servis na mom autu. Sve je prošlo po dogovoru, a radiona je jako uredna i čista, što puno govori o samom servisu."</p>
+                </div>
+            </div>
+            <div class="text-center mt-10">
+                <a href="https://www.google.com/search?q=Auto+servis+Bevanda+Recenzije" target="_blank" class="text-blue-600 font-bold hover:underline">Vidi sve Google recenzije →</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="mapa" class="w-full">
+        <iframe 
+            src="https://maps.google.com/maps?q=Auto%20servis%20Bevanda,%20Buna,%20Mostar&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+            width="100%" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </section>
+
+    <section id="kontakt" class="bg-gray-900 text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                
+                <div>
+                    <h3 class="text-2xl font-bold mb-6 flex items-center"><i class="fas fa-wrench text-blue-500 mr-2"></i> Auto Servis Bevanda</h3>
+                    <p class="text-gray-400 mb-6">Vaš siguran partner na cesti. Dugogodišnje iskustvo i zadovoljni klijenti naša su najbolja garancija.</p>
+                    <div class="flex space-x-4">
+                        <a href="https://www.facebook.com/p/Auto-Servis-Bevanda-100057559204644/" target="_blank" class="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-500 transition">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-bold mb-6 border-b border-gray-700 pb-2">Kontakt Podaci</h3>
+                    <ul class="space-y-4 text-gray-400">
+                        <li class="flex items-start"><i class="fas fa-map-marker-alt mt-1 mr-3 text-blue-500"></i> Mostar, Bosna i Hercegovina</li>
+                        <li class="flex items-center"><i class="fas fa-phone mr-3 text-blue-500"></i> <a href="tel:+38736480010" class="hover:text-white">+387 36 480-010</a></li>
+                        <li class="flex items-center"><i class="fas fa-envelope mr-3 text-blue-500"></i> autobevandadoo@gmail.com</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-bold mb-6 border-b border-gray-700 pb-2">Radno Vrijeme</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex justify-between"><span>Ponedjeljak - Petak:</span> <span>08:00 - 17:00</span></li>
+                        <li class="flex justify-between"><span>Subota:</span> <span>08:00 - 13:00</span></li>
+                        <li class="flex justify-between text-red-400"><span>Nedjelja:</span> <span>Zatvoreno</span></li>
+                    </ul>
+                </div>
+
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-500 text-sm">
+                <p>© 2026 Auto Servis Bevanda d.o.o. Sva prava pridržana.</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
